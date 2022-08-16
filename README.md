@@ -1,4 +1,5 @@
 # Challenge 21 days of Code
 
-## Day One:
-Implement a Beatiful README ;-P
+
+#### Day One:
+- [X] Create An repository to list all project's developed during de challenge
