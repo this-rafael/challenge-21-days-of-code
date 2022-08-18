@@ -1,0 +1,83 @@
+* {
+    font-family: 'Silkscreen', cursive;
+}
+
+
+
+.content {
+    text-align: center;
+    margin-top: 20%;
+    
+}
+
+button {
+    background-color: #e39dff;
+    padding: 2% 3%;
+    font-size: larger;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe; 
+
+}
+
+button:hover {
+    background-color: #ffbfbf;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 2rem #fff,
+    0 0 2rem #fe1313,
+    0 0 0.8rem #c92a2a,
+    0 0 2.8rem #880d1d,
+    inset 0 0 1.3rem #7c0909
+}
+
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+}
+
+
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #bc13fe,
+      0 0 80px #bc13fe,
+      0 0 90px #bc13fe,
+      0 0 100px #bc13fe,
+      0 0 150px #bc13fe;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 2px rgb(219, 114, 114),
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe,
+    0 0 55px #bc13fe,
+    0 0 70px #bc13fe,
+    0 0 80px #bc13fe;
+
+}
+}
